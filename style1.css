@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(255,255,255);
 }
 .but1{
     width: 60%; 
     height: 80px;
     display: flex;  
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(255,255,255);
     border-radius: 2px; border-width: 2px;
     box-shadow: 0 14px 30px -5px rgba(0,0,0,.13);
     margin: 10px auto;
