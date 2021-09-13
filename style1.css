@@ -39,7 +39,7 @@ body{
     color: black;
 }
 .link-url{
-    color: rgba(0,0,0);
+    color: rgba(255,255,255);
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
     overflow: hidden;
@@ -132,7 +132,7 @@ body{
 }
 .textbox{
     outline: 0;
-    background-color: rgb(0,0,0);;
+    background-color: rgb(255,255,255);;
     height: 28px;
     width: 200px;
     box-shadow: 0 14px 30px -5px rgba(0,0,0);
@@ -155,7 +155,7 @@ body{
 .button{
     height: 40px;
     font-family: 'Lato' , sans-serif;
-    background-color: rgba(0,0,0); color: white;   
+    background-color: rgba(255,255,255); color: white;   
     box-shadow: 0 14px 30px -5px rgba(41, 255, 33, 0.39);
     border-radius: 2px;border: 0 ;
     text-align: center;
