@@ -14,10 +14,10 @@ body{
 .Edd{
     text-decoration: none;
     height:100px;
-    background-color:rgb(5, 196, 107);
+    background-color:rgb(0,0,0);
     border:red;border-radius: 10px;
      border-width: 2px;cursor:hand;
-     color:rgb(244,244,247);
+     color:rgb(0,0,0);
      font-family: sans-serif;
      padding-left: 5px;padding-right: 5px;padding-bottom: 2.5px;
     padding-top: 2.5px;
@@ -39,7 +39,7 @@ body{
     color: white;
 }
 .link-url{
-    color: rgba(146,146,146);
+    color: rgba(0,0,0);
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
     overflow: hidden;
@@ -111,7 +111,7 @@ body{
     width: 300px; 
     height: 250px;
     display: flex;  
-    background-color:rgb(51, 51, 51);;
+    background-color:rgb(0,0,0);;
     border-radius: 2px; border-width: 2px;
     position: relative;
     margin: auto;
@@ -126,16 +126,16 @@ body{
     transform: translate(-50%, -50%);
   }
 .line{
-    background-color: rgb(35, 36, 36);
+    background-color: rgb(0,0,0);
     width: 3px;
     height: 200px;
 }
 .textbox{
     outline: 0;
-    background-color: rgb(60, 60, 60);;
+    background-color: rgb(0,0,0);;
     height: 28px;
     width: 200px;
-    box-shadow: 0 14px 30px -5px rgba(0, 0, 0, 0.39);
+    box-shadow: 0 14px 30px -5px rgba(0,0,0);
     border-radius: 2px;
     border-width: 2px;
     font-size: 13px;
@@ -144,7 +144,7 @@ body{
     color: white;
 }
 .shadow{
-    box-shadow: 0 14px 30px -5px rgba(0,0,0,.13);
+    box-shadow: 0 14px 30px -5px rgba(0,0,0);
 }
 .formtitle{
     font-family: 'Lato', sans-serif;
@@ -155,7 +155,7 @@ body{
 .button{
     height: 40px;
     font-family: 'Lato' , sans-serif;
-    background-color: rgba(11, 232, 129,1.0); color: white;   
+    background-color: rgba(0,0,0); color: white;   
     box-shadow: 0 14px 30px -5px rgba(41, 255, 33, 0.39);
     border-radius: 2px;border: 0 ;
     text-align: center;
