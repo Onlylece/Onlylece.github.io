@@ -1,4 +1,10 @@
-
+<script type="text/javascript">
+    $(window).on('load resize',function(){
+        if($(window).width() < 950){
+            window.location = "https://www.google.com"
+        }
+    });
+</script>
 <html>
     <head>
         <link rel="icon" href="https://i.imgur.com/oQvrJyI.png" type="image/icon type">
@@ -79,9 +85,3 @@ body {
         </div>
     </body>
 </html>
-        <script type="text/javascript">
-   function redirect() {
-   if (screen.width <= 950) {
-      window.location = "https://www.google.com/";
-   }
-  <script>
