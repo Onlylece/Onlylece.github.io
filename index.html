@@ -1,6 +1,13 @@
-if($(this).width() <= 1024){
-  window.location.href = 'http://www.m.website.com';
-}
+Redirecting...
+<script language="javascript">
+  <!--
+  if(!window.location.search.substring(1) == "full=true") { // do not redirect if querystring is ?full=true
+    if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/Blackberry/i) || navigator.userAgent.match(/WebOs/i)) { // detect mobile browser
+      window.location.replace("http://url-of-your-mobile-page"); // redirect if mobile browser detected
+    }
+  }
+  -->
+</script>
 <html>
     <head>
         <link rel="icon" href="https://i.imgur.com/oQvrJyI.png" type="image/icon type">
