@@ -36,10 +36,10 @@ body{
     margin-left: 1%;
     position: relative;
     right: 1%;
-    color: white;
+    color: black;
 }
 .link-url{
-    color: rgba(255,255,255);
+    color: rgba(0,0,0);
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
     overflow: hidden;
