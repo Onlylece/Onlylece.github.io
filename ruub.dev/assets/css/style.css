@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    height: 100vh;
+}
+
+.social {
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: flex;
+    margin: 0 auto;
+    padding: 5px 10px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-position: center center;
+    transform: translate(-50%, -50%);
+    background-position: center center;
+    /* background-image: url(https://thumbs.gfycat.com/AgedHotCaterpillar-size_restricted.gif); */
+    box-shadow: 0px 0px 15px #6900ff;
+}
+
+.social img {
+    z-index: 2;
+    height: 50px;
+    color: #fff;
+    padding: 10px 15px;
+    flex-direction: row;
+}
+
+.social img:hover {
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: .4s; /* don't forget to set a duration! */
+}
