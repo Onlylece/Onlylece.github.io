@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+
+<script language=javascript>
+    var rev = "fwd";
+    function titlebar(val){
+        var msg  = "ale";
+        var res = " ";
+        var speed = 40;
+        var pos = val;
+        msg = "   by s"+msg+"m";
+        var le = msg.length;
+        if(rev == "fwd"){
+            if(pos < le){
+                pos = pos+1;
+                scroll = msg.substr(0,pos);
+                document.title = scroll;
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+            else {
+                rev = "bwd";
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+        }
+        else {
+            if(pos > 0) {
+                pos = pos-1;
+                var ale = le-pos;
+                scrol = msg.substr(ale,le);
+                document.title = scrol;
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+            else {
+                rev = "fwd";
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+        }
+    }
+    titlebar(0);
+</script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+  <h1>By Salem</h3>
+  <h3>يسعدلي</h1>
+  <h2>   صباحك او مسائك</h2>
+
+<center><img src="InferiorElaborateAmericanratsn-unscreen.gif" alt="Italian Trulli"><center>
+
+
+  
+</body>
+</html>
+<link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
