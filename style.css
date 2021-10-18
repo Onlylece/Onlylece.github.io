@@ -374,3 +374,149 @@ a, a:hover {
   border-radius: 12px;
   transition: all 0.3s;
 }
+* {
+  background: #222222;
+}
+h1,h2,h3,h4 {
+  font-family: 'Amiri', serif;
+  position: fixed;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background: none;
+}
+
+h1 {
+  left: 700px;
+  bottom: 15px;
+  z-index: 7;
+  animation-name: popUp;
+  animation-duration:.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;  
+}
+h2 {
+  left:650px;
+  bottom: 65px;
+  z-index:7;
+  animation-name: popUp;
+  animation-duration:.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: .1;  
+}
+h3 {
+  left:600px;
+  bottom: 100px;
+  z-index:7;
+  animation-name: popUp;
+  animation-duration:.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: .1;  
+}
+
+h4 {
+  left:300px;
+  bottom: 175px;
+  z-index:5;
+  animation-name: popUp;
+  animation-duration:.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: .1;
+}
+#artboard {
+  display: block;
+  height: 350px;
+  width: 500px;
+  margin: 25px auto;
+  background: linear-gradient(-25deg, #8d1193, #f14d8c);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 100;  
+}
+#main-grid {
+  height: 350px;
+  width: 500px;
+  background: none;
+  transform: scale(10, 4);
+}
+.horizontal,.vertical {
+  stroke: rgba(241, 77, 140, .6);
+  opacity: .7;
+  z-index:0;
+}
+.horizontal {
+  stroke-width: 3px;
+  
+}
+.vertical {
+  stroke-width: 2px;
+  
+}
+
+.horizontal {
+  animation-name: gridMove;
+  animation-duration: .4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+}
+
+.kanye-west {
+  position: relative;
+  width: 300px;
+  bottom: 229px;
+  left: 235px;
+  background: none;
+  z-index: 5;
+}
+.kanye-west-2 {
+  position: relative;
+  width: 275px;
+  bottom: 500px;
+  left: 125px;
+  background: none;
+  z-index: 4;
+}
+.kanye-west-3 {
+  position: relative;
+  width: 250px;
+  bottom: 735px;
+  left: 25px;
+  background: none;
+  z-index: 3;
+}
+.kanye-west-4 {
+  position: relative;
+  width: 225px;
+  bottom: 780px;
+  left: -315px;
+  background: none;
+  z-index: 2;
+}
+
+/* ----- Define Animation - TEXT ----- */
+  @keyframes gridMove {
+      0% {
+          transform: translateY(0);
+          /*opacity: 0; */
+      }
+      50% {
+        /*  opacity: 1; */
+        
+      }     
+      100% {
+          transform: translateY(30px);
+        /*  opacity: 0; */
+      }
+}
+ @keyframes popUp {
+      0% {
+          opacity: 0;
+      }     
+      100% {
+          opacity: 1; 
+      }
